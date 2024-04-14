@@ -1,3 +1,4 @@
+
 :root {
 
 
@@ -142,6 +143,7 @@ html {
 body {
   background: var(--smoky-black);
 }
+
 
 .parentDiv {
   position: fixed;
