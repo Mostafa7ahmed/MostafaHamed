@@ -122,9 +122,9 @@ const form = document.querySelector("[data-form]");
 const formInputs = document.querySelectorAll("[data-form-input]");
 const formBtn = document.querySelector("[data-form-btn]");
 form.addEventListener('submit', (e) => {
+      e.preventDefault();
   const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
   if (!hCaptcha) {
-    e.preventDefault();
     const Toast = Swal.mixin({
       toast: true,
       position: "top",
