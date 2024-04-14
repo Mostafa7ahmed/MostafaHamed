@@ -206,10 +206,15 @@ document.addEventListener("DOMContentLoaded", function () {
       document.querySelector(".parentDiv").style.display = "none";
 
       document.querySelector(".containerLodaing").style.display = "block";
+      document.body.style.backgroundColor = " var(--smoky-black)";
 
-    }, 3000);
+
+    }, 5000);
+
+    
   else {
     document.querySelector(".offDiv").style.display = "block";
+
 
   }
 });
@@ -218,3 +223,8 @@ window.onload = () => {
   // Reset the form fields when the page loads
   document.getElementById("myForm").reset();
 };
+
+
+
+
+// الآن يمكنك استخدام قيمة المتغير start كما تحتاج في البرنامج الخاص بك
