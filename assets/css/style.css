@@ -43,7 +43,7 @@
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
   --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
+  --smoky-black: #121212;
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
@@ -170,7 +170,12 @@ body {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-origin: padding-box;
+  background-origin:inherit;
+  object-fit:scale-down;
+  border: none;
+
+
+
   z-index: 99;
 }
 
