@@ -137,12 +137,8 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 document.getElementById("myForm").addEventListener("submit",
-  function (e) {
-    e.preventDefault();
-    for (let i = 0; i < formInputs.length; i++) {
-      formInputs[i].value = "";
-    }
-    formInputs.value = "";
+  function () {
+   
     const Toast = Swal.mixin({
       toast: true,
       position: "top",
