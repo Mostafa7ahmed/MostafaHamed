@@ -1525,7 +1525,7 @@ textarea.form-input::-webkit-resizer {
   article {
     width: 520px;
     margin-inline: auto;
-    padding: 30px;
+    padding: 12px;
   }
 
   .article-title {
